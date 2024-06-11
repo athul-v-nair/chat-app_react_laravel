@@ -1,0 +1,41 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.loginContainer__loginBoxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  padding: 2rem;
+  background-color: #a0a0b4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loginContainer__loginBoxContainer__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loginContainer__loginBoxContainer__body input{
+  background-color: #282828;
+  border: none;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.loginContainer__loginBoxContainer__body button {
+  margin-top: 0.5rem;
+  color: #a0a0b4;
+  background-color: #282828;
+  font-family: "Radio Canada Big", sans-serif;
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
